@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_onboarding_ui/utilities/style.dart';
 
 class OnboardingScreen extends StatefulWidget {
   @override
@@ -69,10 +70,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 image: AssetImage(
                                   'assets/images/onboarding0.png',
                                 ),
-                                height: 300.0,
-                                width: 300.0,
+                                height: 250.0,
+                                width: 250.0,
                               ),
                             ),
+                            SizedBox(height: 30.0),
+                            Text(
+                              "Connect people\naround the world",
+                              style: kTitleStyle,
+                            ),
+                            SizedBox(height: 15.0),
                           ],
                         ),
                       ),
