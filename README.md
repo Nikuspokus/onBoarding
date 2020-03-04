@@ -2,6 +2,8 @@
 
 A new Flutter application.
 
+### Statut application finie
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
